@@ -116,7 +116,9 @@ p {
     grid-template-columns: 100%;
     margin: 5%;
   }
-
+  body{
+  font-size:15px;
+  }
 }
   .btn-business {
    top: 80%;
