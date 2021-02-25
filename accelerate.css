@@ -1,0 +1,132 @@
+body {
+  font-family: Graphik, Helvetica, Arial, sans-serif;
+}
+.container .btn:hover {
+  background-color: black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  grid-gap: 10%;
+}
+.grid-container p{
+    margin-top: 40%;
+}
+.dot {
+  height: 100px;
+  width: 100px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 50%;
+  
+}
+
+
+.sub-header {
+  width: 100%;
+  background-color: lightgray;
+  padding: 2%;
+  margin-top: 5%;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.sub-header-1 {
+  max-width: 100%;
+  background-color: lightgray;
+  padding: 9%;
+  margin: 5%;
+
+  font-size: 1.5em;
+}
+
+.block {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  margin: 5%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5em;
+}
+
+.footer {
+  max-width: 100%;
+  background-color: lightgray;
+  padding: 5%;
+  margin: 5%;
+}
+.footer .nav {
+  display: inline-block;
+}
+
+.btn-business {
+  background-color: darkslategray;
+  color: white;
+  font-size: 1.7em;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  border-radius: 5px;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn-business:hover {
+  background-color: darkgreen;
+}
+.course_text {
+  max-width: 100%;
+  margin: 5%;
+}
+
+.container-1 {
+  position: relative;
+  margin-bottom: 2%;
+}
+
+p {
+  text-align: center;
+}
+
+.container-1:hover {
+  opacity: 0.4;
+}
+
+.container-2:hover {
+  opacity: 0.4;
+}
+
+.container-3:hover {
+  opacity: 0.4;
+}
+
+@media only screen and (max-width: 600px) {
+  .block {
+    display: grid;
+    grid-template-columns: 100%;
+    margin: 5%;
+  }
+
+}
+  .btn-business {
+   top: 80%;
+    font-size: 14px;
+    
+   
+  }
+
+
+.dropdown-item {
+  width: 100%;
+  padding: 12px;
+}
